@@ -1,0 +1,94 @@
+body{
+    font-family: "Montserrat", sans-serif, cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightcyan;
+}
+.box .mount{
+    position: relative;
+    top: 150px;
+    filter: drop-shadow(10px 5px 5px);
+}
+.box .cloud1{
+    position: relative;
+    right: 200px;
+    filter: drop-shadow(10px 5px 5px);
+}
+.box .cloud2{
+    position: relative;
+    left: 500px;
+    bottom: 250px;
+    filter: drop-shadow(10px 5px 5px);
+}
+.box .cloud3{
+    position: relative;
+    left: 200px;
+    bottom: 550px;
+    filter: drop-shadow(10px 5px 5px);
+}
+.box .cloud4{
+    position: relative;
+    right: 500px;
+    bottom: 550px;
+    filter: drop-shadow(10px 5px 5px);
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item>.image{
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.skills{
+    color: #ff4c68;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.fw-normal{
+    color: #00bfff;
+}
+.touch{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px;
+}
+footer{
+    background-color: #00bfff;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer p{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    flex-direction: row;
+    align-self: flex-end;
+}
